@@ -11,5 +11,5 @@ help yourself if you want. my CSS skills aren't that great as the layout is kind
 
 #### screenshot
 
-![image](./local-homepage.jpg)
+![screenshot](./local-homepage.png)
 
