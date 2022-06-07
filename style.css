@@ -1,0 +1,70 @@
+body {
+  background-color: #232323;
+  color: #999999;
+}
+
+a {
+  background-color: #b3b322;
+  color: #000000;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  border 2px solid #b3bb22;
+}
+a:hover {
+  background-color: #eeee11;
+  color: #000000;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px; 
+}
+.urlcontainer {
+  text-align: center;
+  padding: 2px 97px;
+  margin: auto;
+  clear: both;
+}
+
+#urlbox {
+  padding: 10px;
+  float: left;
+}
+
+#newurlline {
+  padding: 10px;
+  clear: both;
+}
+
+
+#searchbox {
+  clear: both; 
+  padding: 100px;
+}
+
+.searchinput {
+  color: #fbe4b6;
+  font-size: 15px;
+  background-color: #444444;
+  border: 1px solid #222222;
+  width: 77%;
+  padding: 11px 11px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none; 
+}
+
+.searchbutton {
+  background-color: #232323;  
+  color: #999999;
+  font-size: 13px;
+  padding: 7px 13px;
+  border: 2px solid #444444;
+  margin: 7px 7px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 4px;
+}

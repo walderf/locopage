@@ -1,0 +1,13 @@
+reddit,https://old.reddit.com,reddit.png
+github,https://github.com/walderf/,github.ico
+mailbox.org,https://login.mailbox.org,mailbox.png
+gmail,https://mail.google.com,gmail.ico
+aur,https://aur.archlinux.org,arch.png
+nextdns,https://my.nextdns.io,nextdns.ico
+wordle,https://www.nytimes.com/games/wordle/index.html,wordle.png
+unlimited,https://www.wordleunlimited.com,wordleunlimited.png
+youtube,https://www.youtube.com,youtube.ico
+se,https://stackexchange.com/,stackexchange.ico
+sheet,https://walderf.github.io/,walderf.ico
+hn,https://news.ycombinator.com/lists,hackernews.ico
+dotfiles,https://github.com/walderf/dotfiles,github.ico

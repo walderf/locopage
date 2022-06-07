@@ -1,0 +1,41 @@
+<html>
+<head>
+<?php $timestamp=time(); ?>
+<Link rel='stylesheet' type='text/css' href='style.css<?php echo "?{$timestamp}"; ?>'>
+</head>
+<body>
+<br /><br />
+<div class="urlcontainer">
+<?php
+$urllist = fopen("./urllist.txt", "r");
+if ($urllist) {
+  $count = 0;
+  while (($url = fgets($urllist)) !== false) {
+    $url = str_replace("\r\n", "", $url);
+    if ($url[0] !== "#") { 
+      $urlinfo = explode(",", $url);
+      $count++;
+      echo "<ul id='urlbox'><a href='{$urlinfo[1]}'><img src='./images/{$urlinfo[2]}' width='32'><br />{$urlinfo[0]}</a></ul>\r\n";
+      if ($count == 5) {
+        echo "</div><div class='urlcontainer'>";
+        $count = 0;
+      }
+    }  
+  }
+  fclose($urllist);
+}
+?>
+</div>
+<br /><br /><br />
+<div id='searchbox'>
+<form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+<input type="hidden" name="sites" value=""/>
+<input type="text" name="q" placeholder="search…" class="searchinput" aria-label="search on DuckDuckGo"/>
+<button type="submit" class="searchbutton">Search</button>
+</form>
+</div>
+
+<br />
+</body>
+</html>
+
